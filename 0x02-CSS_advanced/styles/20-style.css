@@ -382,6 +382,6 @@ footer ul {
 
 .row::after {
   content: "";
-  display: grid;
-  float: none;
+  display: table;
+  clear: both;
 }
